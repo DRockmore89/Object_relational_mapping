@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const categoryRoutes = require('/Users/ariel/Gt-bootcamp/homework/Object-Relational-mapping/routes/api/category-route');
+const categoryRoutes = require('./category-route');
 const productRoutes = require('./product-routes');
 const tagRoutes = require('./tag-routes');
 
