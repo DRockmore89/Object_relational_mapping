@@ -16,7 +16,7 @@ router.get('/', async (req, res) => {
     } catch (err) {
       res.status(500).json(err);
     }
-    });
+});
 
 //works
 router.get('/:id', async (req, res) => {
@@ -30,7 +30,7 @@ router.get('/:id', async (req, res) => {
           attributes: ['id','product_name','price','stock','category_id'], 
     },
   ],
-    });
+});
     if (!tagData) {
       res.status(404).json({ message: 'No tag found with this id!' });
       return;

@@ -1,10 +1,10 @@
 const router = require('express').Router();
-const categoryRoutes = require('./category-routes');
+const categoryRoutes = require('/Users/ariel/Gt-bootcamp/homework/Object-Relational-mapping/routes/api/category-route');
 const productRoutes = require('./product-routes');
 const tagRoutes = require('./tag-routes');
 
-router.use('/categories', categoryRoutes);
-router.use('/products', productRoutes);
-router.use('/tags', tagRoutes);
+router.use('/category', categoryRoutes);
+router.use('/product', productRoutes);
+router.use('/tag', tagRoutes);
 
 module.exports = router;

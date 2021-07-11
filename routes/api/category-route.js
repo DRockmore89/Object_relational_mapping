@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Category, Product } = require('../');
+const { Category, Product } = require('/Users/ariel/Gt-bootcamp/homework/Object-Relational-mapping/models');
 
 // The `/api/categories` endpoint
 //works
