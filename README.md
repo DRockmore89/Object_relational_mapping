@@ -6,8 +6,6 @@ Internet retail, also known as **e-commerce**, is the largest sector of the elec
 
 Your task is to build the back end for an e-commerce site by modifying starter code. You’ll configure a working Express.js API to use Sequelize to interact with a MySQL database.
 
-
-
 ## User Story
 
 ```md
@@ -31,8 +29,8 @@ THEN the data for each of these routes is displayed in a formatted JSON
 WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
 ```
-## Getting Started
 
+## Getting Started
 
 ### Database Models
 
