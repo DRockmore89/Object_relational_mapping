@@ -137,4 +137,4 @@ Your database should contain the following four models, including the requiremen
     * References the `Tag` model's `id`.
 
 you can look at a demo video
-![Demo of my work](https://j.gifs.com/oZV4q3.gif)
+![Demo of my work](https://youtu.be/ryd34v_3uE8)
